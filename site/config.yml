@@ -1,0 +1,8 @@
+baseURL: https://n3xtw0rk.berlin/
+languageCode: en-us
+title: N3xtw0rk
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - RSS

@@ -1,0 +1,6 @@
+{{ define "main" }}
+
+    {{- $logo := resources.Get "images/logo_and_title_white.svg" | fingerprint }}
+    <img src="{{ $logo.RelPermalink }}" alt="N3xtw0rk" />
+
+{{ end }}
